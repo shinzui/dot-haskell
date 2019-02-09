@@ -6,6 +6,8 @@
 pkg.install() {
   brew install stack
   stack install brittany
+  stack install stylish-haskell
+  stack install hlint
 }
 
 # pkg.push() {
