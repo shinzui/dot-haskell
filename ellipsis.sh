@@ -8,6 +8,12 @@ pkg.install() {
   stack install brittany
   stack install stylish-haskell
   stack install hlint
+  stack install hoogle
+}
+
+pkg.link() {
+  #do nothing
+  echo ""
 }
 
 # pkg.push() {
