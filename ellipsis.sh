@@ -9,6 +9,7 @@ pkg.install() {
   stack install stylish-haskell
   stack install hlint
   stack install hoogle
+  stack install hsimport
 }
 
 pkg.link() {
